@@ -63,17 +63,13 @@ export default {
       switch (this.operacao) {
         case "soma":
           return this.numero1 + this.numero2;
-
         case "sub":
           return this.numero1 - this.numero2;
-
         case "mult":
           return this.numero1 * this.numero2;
-
         case "div":
           if (this.numero2 === 0) return "Erro (divisão por zero)";
           return this.numero1 / this.numero2;
-
         default:
           return 0;
       }
@@ -82,8 +78,6 @@ export default {
 };
 </script>
 
-<style>
-body {
-  background: #f4f4f4;
-}
+<style scoped>
+/* EMPTY. LEAVE IT LIKE THIS */
 </style>
